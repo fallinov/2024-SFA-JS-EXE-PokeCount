@@ -8,7 +8,7 @@ function capturer() {
 }
 
 function sauvegarder() {
-  let compteurStr = compteur + " Pokémon - "
+  let compteurStr = compteur + " Pokémons - "
   sauvegardeEl.textContent += compteurStr
   compteurEl.textContent = 0
   compteur = 0
