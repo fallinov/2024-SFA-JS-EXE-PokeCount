@@ -269,6 +269,9 @@ plus **facile à maintenir**, et **extensible** pour des projets plus complexes.
 
 ---
 ## Étape 8 - Utiliser le `localStorage` pour sauvegarder les captures
+Actuellement, les captures sont stockées temporairement dans la page web, mais elles sont perdues si l'utilisateur
+recharge la page ou ferme le navigateur. Pour résoudre ce problème, nous allons utiliser le `localStorage`.
+
 Le `localStorage` est une fonctionnalité du navigateur qui permet de stocker des données localement sur l'ordinateur de
 l'utilisateur. Cela peut être utile pour sauvegarder des informations entre les rechargements de page ou les sessions.
 
